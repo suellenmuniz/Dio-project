@@ -1,7 +1,18 @@
-package one.digitalinnovation.digionebank
+package one.digitalInovation.dig1onebank
 
-abstract class Pessoa(
-    val nome: String,
-    val cpf: String
-)
+class Pessoa {
+    var nome: String = "Suellen"
+    var cpf: String = "075.364.865-29"
 
+
+
+}
+
+fun main() {
+    val Suellen = Pessoa()
+
+    println(Suellen.nome)
+    println(Suellen.cpf)
+
+
+}
