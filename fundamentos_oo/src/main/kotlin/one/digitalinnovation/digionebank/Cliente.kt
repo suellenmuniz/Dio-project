@@ -1,5 +1,7 @@
 package one.digitalinnovation.digionebank
 
+import one.digitalInovation.dig1onebank.Pessoa
+
 class Cliente(
     nome: String,
     cpf: String,
@@ -9,8 +11,8 @@ class Cliente(
     override fun login(): Boolean = "123456" == senha
 
     override fun toString(): String = """
-        Nome:     $nome
-        Cpf:      $cpf
-        Tipo:     ${clienteTipo.descricao}
+        Nome:   $nome
+        Cpf:    $cpf
+        Tipo:   ${clienteTipo.descricao}
     """.trimIndent()
 }
